@@ -1,0 +1,171 @@
+/* COLOR PALETTE
+
+DARKRED    #8B0000  rgb(139,0,0)
+INDIANRED  #CD5C5C  rgb(205,92,92)
+DARKSALMON     #E9967A  rgb(233,150,122)
+CRIMSON   #DC143C   rgb(220,20,60)
+Light gray    #d3d4d6
+Off-white     #f6f6f6 */
+
+
+/* Global Styles
+======================================== */
+
+
+html {
+    box-sizing: border-box;
+    width: auto;
+    margin: 10px;
+
+  }
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 80px;
+  padding: 15px 0;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.recipe-courtesy {
+  font-size: 25px;
+}
+
+body {
+  min-width: 1000px;
+  background-color: #FAFAD2;
+}
+
+/* Links */
+
+ a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  width: 20px;
+  height: 20px;
+  color: #DC143C;
+}
+
+#header\ title-nav > h1 > a {
+  color: #DC143C;
+}
+
+
+
+
+/* Squash-Salad 
+======================================== */
+
+
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 100px 0;
+  padding: 20px 0 0 0;
+ 
+}
+
+
+h1 {
+  color: tomato;
+  background-color: #F5F5F5;
+  text-align: center;
+  flex-grow: 3;
+}
+ul li {
+  display: inline-block;
+  border: 5px solid black;
+  margin: 0 20px 0 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+ 
+}
+
+li {
+  font-size: 30px;
+}
+
+#header\ title-nav > nav > ul > li:nth-child(1) > a {
+  text-decoration: line-through;
+}
+
+.menu-nav
+{
+  background-color: #F5F5DC;
+  padding: 10px 0 0 0;
+}
+
+main {
+  min-width: 1000px;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 1000px;
+  height: 700px;
+  border: 1px solid;
+  border-radius: 55px;
+  padding: 10px;
+}
+
+.top-details {
+  text-align: center;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.level-description li {
+  border: none;
+
+}
+
+.time-description li {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.yield-description li {
+  border: none;
+
+}
+
+.recipe-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  font-size: 30px;
+}
+
+.left-body {
+  margin: 0 30px 0 0;
+}
+
+.right-body {
+  flex-grow: 3;
+}
+
+.chef-note {
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+}

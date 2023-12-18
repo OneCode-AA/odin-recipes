@@ -1,0 +1,134 @@
+/* COLOR PALETTE
+
+DARKRED    #8B0000  rgb(139,0,0)
+INDIANRED  #CD5C5C  rgb(205,92,92)
+DARKSALMON     #E9967A  rgb(233,150,122)
+CRIMSON   #DC143C   rgb(220,20,60)
+Light gray    #d3d4d6
+Off-white     #f6f6f6 */
+
+
+/* Global Styles
+======================================== */
+
+
+html {
+    box-sizing: border-box;
+    width: auto;
+    margin: 10px;
+
+  }
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 80px;
+  padding: 15px 0;
+}
+
+body {
+  min-width: 1000px;
+  background-color: #FDF5E6;
+}
+
+/* Links */
+
+ a {
+  text-decoration: none;
+  color: black;
+}
+
+#header\ title-nav > h1 > a {
+  color: #DC143C;
+}
+
+a:hover {
+  width: 20px;
+  height: 20px;
+  color: #DC143C;
+}
+
+
+/* HOME
+======================================== */
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 100px 0;
+  padding: 20px 0 0 0;
+ 
+}
+
+
+h1 {
+  color: tomato;
+  background-color: #F5F5F5;
+  text-align: center;
+  flex-grow: 3;
+}
+ul li {
+  display: inline-block;
+  border: 5px solid black;
+  margin: 0 20px 0 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+ 
+}
+
+li {
+  font-size: 30px;
+}
+
+.menu-nav
+{
+  background-color: #F5F5DC;
+  padding: 10px 0 0 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 1000px;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 700px;
+  height: 700px;
+  border: 20px solid white;
+  border-radius: 55px;
+  padding: 10px;
+}
+
+.squash-salad,
+.salmon-cakes,
+.parmesan-roasted-broccoli {
+  text-align: center;
+}
+
+
+
+figcaption {
+  font-size: 40px;
+  border: 10px solid tan;
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  width: 600px;
+}
+
+
+/* Squash-Salad 
+======================================== */
+
+
+
+/* Salmon-Cakes
+======================================== */
+
+
+
+/* Parmesan-Roasted-Broccoli
+======================================== */
+
