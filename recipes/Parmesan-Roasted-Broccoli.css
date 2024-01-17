@@ -1,0 +1,169 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 10px 20px;
+    background-color: rgba(238,232,170,0.8)
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 95%;
+    margin: 20px auto;
+    background-color: rgb(19, 32, 67);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: crimson;
+}
+
+/* Header */
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    flex-grow: 4;
+    font-weight: bolder;
+  
+}
+
+.slogan {
+    font-size: 2em;
+    flex-grow: 1;
+    color: white;
+}
+
+/* Nav */
+
+
+nav {
+    width: 95%;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    font-size: 40px;
+}
+
+nav > p {
+    padding: 18px 0;
+    margin: 10px auto;
+    background-color: white;
+}
+
+body > nav > p > a:nth-child(4) {
+    background-color: rgb(19, 32, 67);
+    color: crimson
+    
+} 
+
+body > nav > p > a:nth-child(1),
+body > nav > p > a:nth-child(2),
+body > nav > p > a:nth-child(3) {
+    color: dodgerblue;
+    background-color: white;
+}
+
+body > nav > p > a:nth-child(1):hover,
+body > nav > p > a:nth-child(2):hover,
+body > nav > p > a:nth-child(3):hover {
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+}
+
+a {
+    margin: 10px 0;
+    padding: 16px 40px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: crimson;
+}
+
+p a {
+    text-decoration: none;
+}
+
+ul {
+    border: 1px solid black;
+}
+li {
+    list-style-type: none;
+}
+
+.top-details > article{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 50%;
+}
+
+ul.level-description,
+
+ul.time-description,
+
+ul.yield-description
+{
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+}
+
+main {
+    margin: 20px 50px;
+}
+
+main > .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 89%;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 20px;
+    margin: 50px 0 0 0;
+}
+
+figcaption a {
+    color: crimson;
+    background-color: white;
+    font-weight: bolder;
+}
+
+figcaption a:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.recipe-body
+{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.left-body {
+    flex-grow: 4;
+}
+
+.recipe-body {
+    flex-grow: 1;
+}
+
+.right-body ol li {
+    list-style-type: decimal;
+    text-align: left;
+}
